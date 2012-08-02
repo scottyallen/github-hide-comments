@@ -20,7 +20,7 @@ chrome.extension.onMessage.addListener(
     }
   });
 
-$('body').append('<div style="position:fixed; top: 0; right: 0; padding: 5px; ' +
+$('body').append('<div style="position:fixed; bottom: 0; right: 0; padding: 5px; ' +
                  'border: 1px solid #D4D4D4; border-bottom-color: #BCBCBC; ' +
                  'border-radius: 3px;' +
                  'background:-webkit-linear-gradient(#FAFAFA,#EAEAEA);">' +
