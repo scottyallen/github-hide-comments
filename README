@@ -1,0 +1,6 @@
+Github Hide Comments Chrome Extension
+
+Adds a small tab at the bottom of the browser window when viewing a github diff
+that allows you to hide or show all comments on the diff.  This makes it easier
+to review code with lots of comments without losing the overall flow of the
+code.
