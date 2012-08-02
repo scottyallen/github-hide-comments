@@ -1,0 +1,16 @@
+{
+  "name": "Github Hide Comments",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Hides/unhides inline github diff comments.",
+  "browser_action": {
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://github.com/*/commit/*", "https://github.com/*/commit/*"],
+      "js": ["jquery-1.7.2.min.js", "content.js"]
+    }
+  ],
+  "permissions": [
+  ]
+}
